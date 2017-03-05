@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_very_very_large">80dp</dimen>
+    <dimen name="about_card_margin_bottom">5dp</dimen>
+    <dimen name="card_default_native_margin_top">1dp</dimen>
+    <dimen name="card_default_native_margin_bottom">3dp</dimen>
+
+</resources>

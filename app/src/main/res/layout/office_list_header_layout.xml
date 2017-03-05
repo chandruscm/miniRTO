@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/accent"
+                android:paddingLeft="@dimen/margin_large"
+                android:paddingTop="@dimen/margin_normal"
+                android:paddingBottom="@dimen/margin_normal"
+                android:paddingRight="@dimen/margin_large"
+                android:clipToPadding="false">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/card_backgroundExpand"
+        android:textStyle="bold"
+        android:text="@string/default_state"
+        android:textAllCaps="true"
+        android:id="@+id/office_state"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:textSize="@dimen/font_normal"
+        android:textColor="@color/card_backgroundExpand"
+        android:textStyle="bold"
+        android:text="@string/default_code"
+        android:textAllCaps="true"
+        android:id="@+id/office_state_code"/>
+
+</RelativeLayout>

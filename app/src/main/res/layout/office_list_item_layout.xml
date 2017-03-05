@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:focusable="true"
+      android:clickable="true"
+      android:background="?android:attr/selectableItemBackground">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_large"
+        android:layout_alignParentLeft="true"
+        android:textSize="@dimen/font_large"
+        android:text="@string/default_district"
+        android:id="@+id/office_district"/>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/margin_large"
+        android:layout_alignParentRight="true"
+        android:gravity="left"
+        android:textSize="@dimen/font_large"
+        android:text="@string/default_code"
+        android:id="@+id/office_district_code"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/office_district"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginRight="@dimen/margin_medium"
+        android:background="@color/divider"/>
+
+</RelativeLayout>

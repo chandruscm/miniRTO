@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:card="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".Fragments.VehicleFragment">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/accent">
+
+        <TextView
+            android:id="@+id/recent_search_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_normal"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/font_normal"
+            android:textStyle="bold"
+            android:textColor="@color/card_backgroundExpand"
+            android:text="@string/recent_search_header"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/toolbar_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@drawable/toolbar_shadow" />
+
+    <it.gmariotti.cardslib.library.view.CardListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="60dp"
+        android:animateLayoutChanges="true"
+        card:list_card_layout_resourceID="@layout/vehicle_card"
+        android:id="@+id/about_list"/>
+
+</LinearLayout>
