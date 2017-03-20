@@ -455,6 +455,7 @@ public class VehicleFragment extends Fragment
                                 {
                                     addCardToList(new Vehicle(result, "Maruti Suzuki Ritz", "Petrol", "> 1500cc", "K12MNXXXXXXX", "K12MNXXXXXXX", "chandruscm", "Trivandrum, Kerala", "Registered on 01 Jan 2000"));
                                     fragmentCallback.showFab();
+                                    //jsoup request made here
                                     //getDetails(result);
                                 }
                                 else
